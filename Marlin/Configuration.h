@@ -129,7 +129,7 @@
 //#define BLUETOOTH
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-3 Pro//###Kedryn###
+#define CUSTOM_MACHINE_NAME "Ender-3 Pro" //###Kedryn###
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like https://www.uuidgenerator.net/version4
@@ -1383,7 +1383,7 @@
  *
  * See https://github.com/synthetos/TinyG/wiki/Jerk-Controlled-Motion-Explained
  */
-define S_CURVE_ACCELERATION //###Kedryn###
+#define S_CURVE_ACCELERATION //###Kedryn###
 
 //===========================================================================
 //============================= Z Probe Options =============================
@@ -2264,7 +2264,7 @@ define S_CURVE_ACCELERATION //###Kedryn###
  * Add a bed leveling sub-menu for ABL or MBL.
  * Include a guided procedure if manual probing is enabled.
  */
-#define LCD_BED_LEVELING //###Kedryn###
+//#define LCD_BED_LEVELING 
 
 #if ENABLED(LCD_BED_LEVELING)
   #define MESH_EDIT_Z_STEP  0.025 // (mm) Step size while manually probing Z axis.
